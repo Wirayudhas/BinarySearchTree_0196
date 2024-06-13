@@ -10,4 +10,11 @@ public:
 	Node* leftchild;
 	Node* rightchild;
 
-	
+	//constructor
+	Node(string i, Node* l, Node* r)
+	{
+		info = i;
+		leftchild = l;
+		rightchild = r;
+	}
+};
