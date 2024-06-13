@@ -39,4 +39,10 @@ public:
 		Node* currentNode = nullptr;
 		search(element, parent, currentNode);
 
+		if (parent == nullptr) // if the parents NUll (tree is empty)
+		{
+			ROOT = newNode; // Mark the new node as ROOT
+			return; // EXIT
+		}
+
 		
